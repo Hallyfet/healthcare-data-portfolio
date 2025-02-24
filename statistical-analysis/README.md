@@ -1,15 +1,15 @@
-# statistical analysis Projects
+# Statistical Analysis Projects
 # This folder contains my statistical analysis work.
 # House Price Statistical Analysis Project
 
-This project conducts statistical analysis on King County house sale data to identify price patterns and key factors influencing home values.
+This project conducts statistical analysis of King County house sale data to identify price patterns and key factors influencing home values.
 
 ## Dataset
 
 The analysis uses the King County House Sales dataset, which contains information about houses sold in King County, Washington between May 2014 and May 2015. This is real-world data with the following features:
 
 - `id`: Unique identifier for each house
-- `date`: Date the house was sold
+- `date`: The date the house was sold
 - `price`: Sale price (target variable)
 - `bedrooms`: Number of bedrooms
 - `bathrooms`: Number of bathrooms
@@ -21,7 +21,7 @@ The analysis uses the King County House Sales dataset, which contains informatio
 - `condition`: Condition rating (1-5)
 - `grade`: Grade rating (1-13)
 - `sqft_above`: Square footage above ground
-- `sqft_basement`: Square footage of basement
+- `sqft_basement`: Square footage of the basement
 - `yr_built`: Year built
 - `yr_renovated`: Year renovated (0 if never renovated)
 - `zipcode`: ZIP Code
