@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" />
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Life Expectancy vs Healthcare Expenditure</text>
+  
+  <!-- Axes -->
+  <line x1="100" y1="500" x2="700" y2="500" stroke="#333" stroke-width="2" />
+  <line x1="100" y1="500" x2="100" y2="100" stroke="#333" stroke-width="2" />
+  
+  <!-- X-axis label -->
+  <text x="400" y="550" font-family="Arial" font-size="18" text-anchor="middle">Healthcare Expenditure (% of GDP)</text>
+  
+  <!-- Y-axis label -->
+  <text x="50" y="300" font-family="Arial" font-size="18" text-anchor="middle" transform="rotate(-90 50 300)">Life Expectancy (years)</text>
+  
+  <!-- X-axis ticks and labels -->
+  <line x1="100" y1="500" x2="100" y2="510" stroke="#333" stroke-width="2" />
+  <text x="100" y="530" font-family="Arial" font-size="12" text-anchor="middle">0</text>
+  
+  <line x1="220" y1="500" x2="220" y2="510" stroke="#333" stroke-width="2" />
+  <text x="220" y="530" font-family="Arial" font-size="12" text-anchor="middle">4</text>
+  
+  <line x1="340" y1="500" x2="340" y2="510" stroke="#333" stroke-width="2" />
+  <text x="340" y="530" font-family="Arial" font-size="12" text-anchor="middle">8</text>
+  
+  <line x1="460" y1="500" x2="460" y2="510" stroke="#333" stroke-width="2" />
+  <text x="460" y="530" font-family="Arial" font-size="12" text-anchor="middle">12</text>
+  
+  <line x1="580" y1="500" x2="580" y2="510" stroke="#333" stroke-width="2" />
+  <text x="580" y="530" font-family="Arial" font-size="12" text-anchor="middle">16</text>
+  
+  <line x1="700" y1="500" x2="700" y2="510" stroke="#333" stroke-width="2" />
+  <text x="700" y="530" font-family="Arial" font-size="12" text-anchor="middle">20</text>
+  
+  <!-- Y-axis ticks and labels -->
+  <line x1="90" y1="500" x2="100" y2="500" stroke="#333" stroke-width="2" />
+  <text x="85" y="505" font-family="Arial" font-size="12" text-anchor="end">50</text>
+  
+  <line x1="90" y1="400" x2="100" y2="400" stroke="#333" stroke-width="2" />
+  <text x="85" y="405" font-family="Arial" font-size="12" text-anchor="end">60</text>
+  
+  <line x1="90" y1="300" x2="100" y2="300" stroke="#333" stroke-width="2" />
+  <text x="85" y="305" font-family="Arial" font-size="12" text-anchor="end">70</text>
+  
+  <line x1="90" y1="200" x2="100" y2="200" stroke="#333" stroke-width="2" />
+  <text x="85" y="205" font-family="Arial" font-size="12" text-anchor="end">80</text>
+  
+  <line x1="90" y1="100" x2="100" y2="100" stroke="#333" stroke-width="2" />
+  <text x="85" y="105" font-family="Arial" font-size="12" text-anchor="end">90</text>
+  
+  <!-- Grid lines -->
+  <line x1="100" y1="400" x2="700" y2="400" stroke="#ddd" stroke-width="1" />
+  <line x1="100" y1="300" x2="700" y2="300" stroke="#ddd" stroke-width="1" />
+  <line x1="100" y1="200" x2="700" y2="200" stroke="#ddd" stroke-width="1" />
+  <line x1="100" y1="100" x2="700" y2="100" stroke="#ddd" stroke-width="1" />
+  
+  <line x1="220" y1="100" x2="220" y2="500" stroke="#ddd" stroke-width="1" />
+  <line x1="340" y1="100" x2="340" y2="500" stroke="#ddd" stroke-width="1" />
+  <line x1="460" y1="100" x2="460" y2="500" stroke="#ddd" stroke-width="1" />
+  <line x1="580" y1="100" x2="580" y2="500" stroke="#ddd" stroke-width="1" />
+  
+  <!-- Data points (for countries) -->
+  <!-- United States -->
+  <circle cx="640" cy="200" r="25" fill="#440154" fill-opacity="0.7" />
+  <text x="640" y="185" font-family="Arial" font-size="10" text-anchor="middle" fill="white">USA</text>
+  
+  <!-- Japan -->
+  <circle cx="520" cy="150" r="18" fill="#21918c" fill-opacity="0.7" />
+  <text x="520" y="150" font-family="Arial" font-size="10" text-anchor="middle" fill="white">JPN</text>
+  
+  <!-- Germany -->
+  <circle cx="550" cy="170" r="20" fill="#3b528b" fill-opacity="0.7" />
+  <text x="550" y="170" font-family="Arial" font-size="10" text-anchor="middle" fill="white">DEU</text>
+  
+  <!-- UK -->
+  <circle cx="500" cy="180" r="18" fill="#5ec962" fill-opacity="0.7" />
+  <text x="500" y="180" font-family="Arial" font-size="10" text-anchor="middle" fill="white">GBR</text>
+  
+  <!-- France -->
+  <circle cx="530" cy="160" r="18" fill="#3b528b" fill-opacity="0.7" />
+  <text x="530" y="160" font-family="Arial" font-size="10" text-anchor="middle" fill="white">FRA</text>
+  
+  <!-- Canada -->
+  <circle cx="510" cy="170" r="17" fill="#21918c" fill-opacity="0.7" />
+  <text x="510" y="170" font-family="Arial" font-size="10" text-anchor="middle" fill="white">CAN</text>
+  
+  <!-- Australia -->
+  <circle cx="480" cy="160" r="17" fill="#21918c" fill-opacity="0.7" />
+  <text x="480" y="160" font-family="Arial" font-size="10" text-anchor="middle" fill="white">AUS</text>
+  
+  <!-- Brazil -->
+  <circle cx="340" cy="300" r="15" fill="#fde725" fill-opacity="0.7" />
+  <text x="340" y="300" font-family="Arial" font-size="10" text-anchor="middle">BRA</text>
+  
+  <!-- China -->
+  <circle cx="240" cy="270" r="16" fill="#5ec962" fill-opacity="0.7" />
+  <text x="240" y="270" font-family="Arial" font-size="10" text-anchor="middle">CHN</text>
+  
+  <!-- India -->
+  <circle cx="180" cy="360" r="12" fill="#fde725" fill-opacity="0.7" />
+  <text x="180" y="360" font-family="Arial" font-size="10" text-anchor="middle">IND</text>
+  
+  <!-- Russia -->
+  <circle cx="300" cy="290" r="14" fill="#5ec962" fill-opacity="0.7" />
+  <text x="300" y="290" font-family="Arial" font-size="10" text-anchor="middle">RUS</text>
+  
+  <!-- Mexico -->
+  <circle cx="260" cy="310" r="13" fill="#fde725" fill-opacity="0.7" />
+  <text x="260" y="310" font-family="Arial" font-size="10" text-anchor="middle">MEX</text>
+  
+  <!-- South Africa -->
+  <circle cx="240" cy="330" r="12" fill="#fde725" fill-opacity="0.7" />
+  <text x="240" y="330" font-family="Arial" font-size="10" text-anchor="middle">ZAF</text>
+  
+  <!-- Nigeria -->
+  <circle cx="140" cy="400" r="10" fill="#fde725" fill-opacity="0.7" />
+  <text x="140" y="400" font-family="Arial" font-size="10" text-anchor="middle">NGA</text>
+  
+  <!-- Legend -->
+  <rect x="600" y="80" width="180" height="150" fill="white" stroke="#ccc" stroke-width="1" rx="5" ry="5" />
+  <text x="690" y="100" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Legend</text>
+  
+  <text x="620" y="125" font-family="Arial" font-size="12">Circle Size: Physicians per 1000</text>
+  <text x="620" y="145" font-family="Arial" font-size="12">Circle Color: Vaccination Coverage</text>
+  
+  <!-- Color scale -->
+  <linearGradient id="colorGradient" x1="0%" y1="0%" x2="100%" y1="0%">
+    <stop offset="0%" stop-color="#440154" />
+    <stop offset="25%" stop-color="#3b528b" />
+    <stop offset="50%" stop-color="#21918c" />
+    <stop offset="75%" stop-color="#5ec962" />
+    <stop offset="100%" stop-color="#fde725" />
+  </linearGradient>
+  
+  <rect x="620" y="160" width="140" height="15" fill="url(#colorGradient)" />
+  <text x="620" y="190" font-family="Arial" font-size="10">Low</text>
+  <text x="760" y="190" font-family="Arial" font-size="10" text-anchor="end">High</text>
+  <text x="690" y="190" font-family="Arial" font-size="10" text-anchor="middle">Vaccination Coverage</text>
+  
+  <!-- Size legend -->
+  <circle cx="640" cy="210" r="10" fill="#555" fill-opacity="0.5" />
+  <text x="660" y="215" font-family="Arial" font-size="10">Small</text>
+  
+  <circle cx="700" cy="210" r="20" fill="#555" fill-opacity="0.5" />
+  <text x="730" y="215" font-family="Arial" font-size="10">Large</text>
+</svg>
