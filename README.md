@@ -3,7 +3,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](www.linkedin.com/in/halimah-fetuga)
 👋 About Me
-Healthcare Data Scientist with a unique blend of pharmacy background and advanced data analysis expertise. Currently leveraging this combination in fraud detection at TSYS, applying healthcare statistical methods to financial security. MSc in Health Data Science from the University of Manchester with a focus on real-world evidence in health technology assessment.
+Healthcare Data Scientist with a unique blend of pharmacy background and advanced data analysis expertise. Currently leveraging this combination in fraud detection at Monzo, applying healthcare statistical methods to financial security. MSc in Health Data Science from the University of Manchester with a focus on real-world evidence in health technology assessment.
 
 ## 🔬 Core Competencies
 - Health Data Analysis: Statistical modeling, real-world evidence analysis, health technology assessment
